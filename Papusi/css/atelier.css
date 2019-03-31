@@ -1,0 +1,48 @@
+
+/* ATELIER */
+
+.image-atelier {
+	overflow:auto;
+}
+
+.image-atelier img{
+	max-width: 50%;
+	max-height: 30em;
+	float: right;
+	margin-left: 0.625em;
+	margin-bottom: 0.625em;
+}
+
+
+ 
+/* INSCRIERI */ 
+
+input{
+		width: 100%;
+		padding: 0.625em 1.25em;
+		margin: .5em 1em .5em 0em;
+		display: inline-block;
+		border : 0.06em solid #3C839F;
+		box-sizing: border-box;
+}
+
+input[type=submit]
+{
+	background-color: #3C839F;
+	color: white;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	
+}
+
+input[type=submit]:hover{
+	background-color: #204655;
+	color:white;
+	border-color: white;
+	
+}
+ 
+
+ 

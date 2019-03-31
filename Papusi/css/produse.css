@@ -1,0 +1,56 @@
+
+
+
+
+.display {
+	margin: 2%;
+	float: left;
+	width: 9em;
+	height: 25em;
+	text-align: center;
+	overflow: auto;
+	transition: 1s ease;
+}
+
+
+img.produs{
+	width:100%;
+	height:10em;	
+	display: block;
+	object-fit: cover;
+}
+
+.display p{
+	padding: 0.625em;
+	font-size: small;
+	padding-top: 0em;
+}
+
+p.overlay{
+	width: 100%;
+	background-color: #3D839F;
+	color: white; 
+	position: relative;
+    animation-name: animatie;
+    animation-duration: 1s;
+	animation-timing-function: ease-in;
+	padding: 0em;
+	height: 2em;
+}
+
+h3.titlu{
+	font-size: 1em;
+	margin: 1em;
+	color: #67AFCB;
+}
+
+@keyframes animatie {
+    0%   {opacity: 0; top:10em;}
+    100% {opacity: 1;  top:0em;}
+}
+
+
+.display:hover  {
+	background-color: #3D839F;
+	color:white;
+}

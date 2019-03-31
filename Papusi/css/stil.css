@@ -1,0 +1,128 @@
+
+
+/* GENERAL SETTINGS */
+
+body{
+		box-sizing: border-box;
+		background-color: #F6F8F9;
+		color: #0C2A36;
+		font-family: Times New Roman;
+		font-size: 1em;
+		letter-spacing: 0.03em;
+		padding: 0;
+		margin: 0;
+		line-height: 1.5;
+}
+
+
+/* HEADER */
+/* SIDENAV */
+
+header{
+		/*headerul situal in stanga paginii*/
+		background-color: white;
+		position: fixed;
+		text-decoration: none;
+		width: 15em;
+		letter-spacing: .06em;
+		height: 100%;
+		overflow:hidden;
+		background-image: url("https://i.pinimg.com/564x/ec/e9/14/ece9140a796f0d1044bf08e270db319b.jpg");
+		background-repeat: repeat;
+		background-position: top;
+		text-align: center;
+}
+
+#logo{
+	/* titlul paginii*/
+	padding: 11em 2em 4em 2em;
+}
+
+.sidenav ul{
+	/*lista de linkuri din sidebar*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 15em;
+	overflow: auto;
+}
+
+.sidenav li a{
+	/* linkurile din nav bar */
+	background-color: #EEF4F7;
+	text-decoration: none;
+	display : block;
+	padding : .5em 1em;
+	opacity: 0.8;
+	margin-bottom: .2em;
+	color:#0C2A36;
+}
+
+.sidenav a.active{
+	opacity: 1;
+	background-color: #78B6CE;
+}
+
+.sidenav li a:hover{
+		background-color: #0C2A36;
+		color:white;
+		opacity: .8;
+}
+
+.sidenav li ul{
+	display: none;
+}
+
+.sidenav li:hover ul{
+	display: block;
+	background-color: #3C88A6;
+
+}
+
+.sidenav .dropdown:after{
+	float : right;
+}
+
+
+/* MAIN */
+
+
+.container
+{
+	/* meniul propriu zis*/
+	overflow: auto;
+	margin-left: 16em;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 1.2em;
+	background-color: #E7F0F3;
+}
+
+.container h2{
+	color:#3D839F;
+	padding-left: 2em;
+	border-bottom: .075em solid white;
+}
+
+p{
+	margin: 0em;
+}
+
+a{ text-decoration : none; }
+
+/* COPYRIGHT */
+
+ footer {
+	bottom: .1em;
+	margin-left: 16em;
+	margin-right: 1.5em;
+	background-color: #78B6CE;
+	padding:0em 0.1em;
+	position: relative;
+ }
+ 
+ 
+
+ 
+ 
+

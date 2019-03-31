@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "ro">
+
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css/stil.css" >
+	<link rel = "stylesheet" type = "text/css" href = "css/atelier.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/media.css" >
+	<link rel = "icon" href = "./images/logo.png" type = "image/gif" >
+	<title>Atelier | Atelierul de papusi </title>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta name = "description" content = "Atelier de papusi hand-made">
+	<meta name = "keywords" content = "papusi, hand-made, jucarii, cadouri, atelier, echipament, locatie">
+	<meta name = "author" content = "Pop Maria Denisa">
+</head>
+
+<body>
+	<header>
+		<div>
+			<div id="logo">
+				<h1> Atelierul de Papusi </h1>
+			</div>
+			<nav class = "sidenav">
+				<ul>
+					<li><a href="Site_Papusi.html"> Home </a>
+					<ul>
+						<li><a href ="Site_Papusi.html#about"> Despre Noi </a></li>
+						<li><a href ="Site_Papusi.html#artisti" > Artisti </a></li>
+					</ul> 
+					</li>
+					<li><a href ="produse.html"> Produse </a></li>
+					<li><a href ="atelier.html" class = "dropdown active"> Atelier </a>
+					<ul>
+						<li><a href= "atelier.html#atelier"> Atelierul De Sambata </a> </li>
+						<li><a href ="atelier.html#inscrieri"> Inscrieri </a></li>
+					</ul>
+					</li>
+					<li><a href ="contact.html"> Contact </a> </li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id = "atelier">
+		<div class = "container image-atelier">
+			<h2> Atelier </h2>
+			<img src = "images/atelier.jpg" alt = "atelier">
+			<p> Aproape zilnic, la noi au loc ateliere de lucru alaturi de copii, parinti si de oricine este pasionat. Cei trei artisti va vor introduce in tainele tehnicii de lucru a papusilor. La fiecare atelier avem disponibile 20 de locuri, dar se face exceptie in cazul parintilor ce vin sa lucreze cu copii.
+			Atelierul nostru este dotat cu produse ce mai buna calitate, fiind importate din Italia si Franta. Avem o gama larga de materiale de lucru, astfel incat fiecare participant isi poate exprima liber simtul artistic.</p>
+			</div>
+	</section>
+	
+	<section id = "inscrieri">
+		<div class = "container">
+			<h2> Inscrieri </h2>
+		<form class = "inscrieri">
+			<label for="fname"> Nume  </label>
+			<input type= "text" name="firstname" id="fname"> 
+			<label for="lname"> Prenume </label>
+			<input type = "text" name="lastname" id="lname"> 
+			<label for = "eadress"> Adresa email </label>
+			<input type = "email" name="emailadress" placeholder = "username@example.com" id="eadress"> 
+			<label for = "usrtel"> Numar telefon </label>
+			<input type = "tel" name="usrtel" id="usrtel">
+			<label for = "quantity"> Numar participanti </label>  
+			<input type="number" name="quantity" min = "1" value = "1" id="quantity" >
+			<input type ="submit" value = "submit">
+		</form>
+		</div>
+	</section>
+
+	<footer>
+			<p> <i> &copy; Copyright 2018 Atelierul de Creatie </i> </p>
+	</footer>
+	
+</body>
+
+</html>

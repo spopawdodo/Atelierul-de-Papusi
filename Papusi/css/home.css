@@ -1,0 +1,16 @@
+/* ABOUT */
+
+
+.image{
+		overflow: auto;
+		border-top: 2px solid white;
+}
+
+.image img{
+	max-width: 25%;
+	max-height: 15.625em;
+	float: left;
+	margin-right: 0.625em;
+	margin-bottom: 0.625em;
+	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+}

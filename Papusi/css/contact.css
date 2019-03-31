@@ -1,0 +1,66 @@
+/*CONTACT*/
+ /*TABELE*/
+ 
+ #contact h3{
+
+	 margin :0.5em 0em;
+ }
+ 
+ 
+.progmag{
+	margin-bottom: 1em;
+	border-bottom: .075em solid white;
+	padding: 2% 0;
+}
+ 
+.progmag table{
+	 border-collapse: collapse;
+	 width : 100%;
+	 background-color: white;
+	 max-width: 47em;
+	 opacity: 0.9;
+ }
+ 
+.progmag table, th, td {
+	 border-bottom: 0.07em solid #A4D6EA;
+ }
+ 
+.progmag th, td{
+	 padding: 0.6em;
+	 text-align: center; 
+ }
+ 
+.progmag th{
+	 background-color: #FFFFFF;	 
+	 letter-spacing: 0.1em;
+	 background-image: url("https://i.pinimg.com/564x/ec/e9/14/ece9140a796f0d1044bf08e270db319b.jpg");
+}
+ 
+.progmag tr:nth-child(even){
+	 background-color: #A4CFE0;
+}
+
+
+.progat{
+	margin-bottom: 1em;
+	border-bottom: .075em solid white;
+	padding: 2% 0;
+}
+
+.progat table{
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 60em;
+}
+.progat table, th, tr, td{
+	border: 0.07em solid #A4D6EA;
+}
+
+.progat th{
+	padding: 0.6em;
+	color:white;
+	background-color:  #2F6F89;
+	font-size: 1.2em;
+}
+
+
